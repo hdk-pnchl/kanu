@@ -1,0 +1,376 @@
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+    <section id="jSplash">
+        <div id="circle"></div>
+    </section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+        <div id="slidecaption">12345</div>
+    </div>
+
+    <div class="control-nav">
+        <a id="prevslide" class="load-item"> <i class="font-icon-arrow-simple-left"></i>
+        </a>
+        <a id="nextslide" class="load-item"> <i class="font-icon-arrow-simple-right"></i>
+        </a>
+
+        <ul id="slide-list"></ul>
+
+        <a id="nextsection" href="#work">
+            <i class="font-icon-arrow-simple-down"></i>
+        </a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+        <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+
+        <div id="logo">
+            <a id="goUp" href="#home-slider" title="Train Brain Studio | Responsive One Page Template">Train Brain Studio</a>
+        </div>
+
+        <nav id="menu">
+            <ul id="menu-nav">
+                <li class="current">
+                    <a href="#home-slider">Home</a>
+                </li>
+                <li>
+                    <a href="#work">Our Work</a>
+                </li>
+                <li>
+                    <a href="#about">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="shortcodes.html" class="external">LOG IN/OUT</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+    <div class="container">
+        <!-- Portfolio Projects -->
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                        <li class="type-work"></li>
+                        <li>
+                            <a href="#filter" data-option-value="*" class="selected">All Work</a>
+                        </li>
+                        <li>
+                            <a href="#filter" data-option-value=".kids">Kids</a>
+                        </li>
+                        <li>
+                            <a href="#filter" data-option-value=".women">Women</a>
+                        </li>
+                        <li>
+                            <a href="#filter" data-option-value=".video">Corporate</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Filter --> 
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <section id="projects">
+                        <ul id="thumbs">
+                            <li class="item-thumbs span3" ng-repeat="img in core.work.images" ng-class="img.group">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" ng-class="" data-fancybox-group="gallery" title="{{img.title}}" href="{{img.clickPath}}">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img ng-src="{{img.path}}" alt="{{img.alt}}">
+                            </li>
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs span3 kids">
+                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="resource/template/brushed/_include/img/work/full/image-01-full.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="resource/template/brushed/_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            </li>
+                            <!-- End Item Project -->
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects --> 
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+    <div class="container">
+        <!-- People -->
+        <div class="row">
+
+            <!-- Start Profile -->
+            <div class="col-md-4 profile">
+                <div class="image-wrap">
+                    <div class="hover-wrap">
+                        <span class="overlay-img"></span>
+                        <span class="overlay-text-thumb">CTO/Founder</span>
+                    </div>
+                    <img src="elements/images/team/dr-aakashee-shah-04.png" alt="Dr. Aakashee Shah"></div>
+                <h3 class="profile-name">Dr. Aakashee Shah</h3>
+                <p class="profile-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat
+                    <a href="#">hendrerit dictum</a>
+                    . 
+Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Profile -->
+
+            <!-- Start Profile -->
+            <div class="col-md-4 profile">
+                <div class="image-wrap">
+                    <div class="hover-wrap">
+                        <span class="overlay-img"></span>
+                        <span class="overlay-text-thumb">Creative Director</span>
+                    </div>
+                    <img src="elements/images/team/nigahi-shah.png" alt="Nigahi Shah"></div>
+                <h3 class="profile-name">Nigahi Shah</h3>
+                <p class="profile-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat
+                    <a href="#">hendrerit dictum</a>
+                    . 
+Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-email"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Profile -->
+
+            <!-- Start Profile -->
+            <div class="col-md-4 profile">
+                <div class="image-wrap">
+                    <div class="hover-wrap">
+                        <span class="overlay-img"></span>
+                        <span class="overlay-text-thumb">Lead Designer</span>
+                    </div>
+                    <img src="elements/images/team/heena-shah.png" alt="Heena Shah"></div>
+                <h3 class="profile-name">Heena Shah</h3>
+                <p class="profile-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat
+                    <a href="#">hendrerit dictum</a>
+                    . 
+Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+
+                <div class="social">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="font-icon-social-vimeo"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Profile --> 
+        </div>
+        <!-- End People --> 
+    </div>
+</div>
+<!-- End About Section -->
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-page">
+                    <h2 class="title">Get in Touch</h2>
+                    <h3 class="title-description">
+                        We’re currently accepting new client projects. We look forward to serving you.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+
+        <!-- Contact Form -->
+        <div class="row">
+            <div class="col-md-9">
+
+                <form id="contact-form" class="contact-form" action="#">
+                    <p class="contact-name">
+                        <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                    </p>
+                    <p class="contact-email">
+                        <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                    </p>
+                    <p class="contact-message">
+                        <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                    </p>
+                    <p class="contact-submit">
+                        <a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                    </p>
+
+                    <div id="response"></div>
+                </form>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="contact-details">
+                    <h3>Contact Details</h3>
+                    <ul>
+                        <li>
+                            <a href="#">help@trainbrainstudio.com</a>
+                        </li>
+                        <li>(+91) 9819-**-**06</li>
+                        <li>
+                            Train Brain Studio Studio<br>
+                            000, Raghuleela mall, SV road,<br>
+                            Kandivali West, Mumbai, MH
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Form --> 
+    </div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="follow">
+                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank">
+                    </a>
+                </div>
+                <div id="ticker" class="query"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav id="social">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank">
+                                <span class="font-icon-social-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank">
+                                <span class="font-icon-social-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank">
+                                <span class="font-icon-social-google-plus"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank">
+                                <span class="font-icon-social-linkedin"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+    <p class="credits">
+        &copy;2016 Train Brain Studio.
+    </p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+    <i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->

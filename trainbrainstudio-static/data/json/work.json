@@ -1,0 +1,58 @@
+{
+	"images": [{
+			"group": "kids",
+			"title": "001",
+			"path": "elements/images/psychiatry-null/001.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "kids",
+			"title": "002",
+			"path": "elements/images/psychiatry-null/002.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "kids",
+			"title": "003",
+			"path": "elements/images/psychiatry-null/003.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "kids",
+			"title": "004",
+			"path": "elements/images/psychiatry-null/004.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "women",
+			"title": "005",
+			"path": "elements/images/psychiatry-null/005.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "women",
+			"title": "006",
+			"path": "elements/images/psychiatry-null/006.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "women",
+			"title": "007",
+			"path": "elements/images/psychiatry-null/007.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "video",
+			"title": "008",
+			"path": "elements/images/psychiatry-null/008.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		},{
+			"group": "video",
+			"title": "009",
+			"path": "elements/images/psychiatry-null/009.png",
+			"clickPath": "resource/template/brushed/_include/img/work/full/image-01-full.jpg",
+			"alt": ":( Some problem."
+		}
+	]
+}

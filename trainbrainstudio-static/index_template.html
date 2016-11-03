@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appM">
+	<head>
+        <!-- Meta Tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Train Brain Studio</title>
+        <meta name="description" content="Insert Your Site Description" />
+        <!-- Mobile Specifics -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="MobileOptimized" content="320"/>
+
+		<!-- bootstrap -->
+		<link rel="stylesheet" type="text/css" href="resource/bootstrap/bootstrap-3.3.5/css/bootstrap.css">
+		<style type="text/css"></style>
+		
+		<!-- jquery -->
+		<script type="text/javascript" src="resource/jquery/jquery-2.1.4.js"></script>
+		<!-- bootstrap -->
+		<script type="text/javascript" src="resource/bootstrap/bootstrap-3.3.5/js/bootstrap.js"></script>
+		<!-- angularjs -->
+		<script type="text/javascript" src="resource/angularjs/angular-1.5.6/angular.js"></script>
+		<script type="text/javascript" src="resource/angularjs/angular-1.5.6/angular-route.js"></script>
+		<script type="text/javascript" src="resource/angularjs/angular-1.5.6/angular-resource.js"></script>
+    	<script type="text/javascript" src="resource/angularjs/angular-1.5.6/angular-animate.js"></script>
+		<script type="text/javascript" src="resource/angularjs/angular-ui/ui-bootstrap-tpls-2.0.0.js"></script>
+        <!-- app -->
+        <script type="text/javascript" src="elements/js/controller.js"></script>
+        <script type="text/javascript" src="elements/js/service.js"></script>
+        <script type="text/javascript" src="elements/js/directive.js"></script>
+        <script type="text/javascript" src="elements/js/app.js"></script>
+	</head>
+    <body ng-controller="CoreController">
+        <div ng-view></div>
+    </body>
+</html>
